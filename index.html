@@ -3,37 +3,45 @@
     <head>
         <link href="style.css" rel="stylesheet">
         <title>Page Title</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
 <body>
-
-    <header id="header">
-        <img id="header-img" src="logo.jpg" width="30px">
-        My product landing page
-
-        <nav class="nav-link">
-            <a href="/html/" class="nav-link" target="-blank">HTML</a> |
-            <a href="/css/" class="nav-link" target="-blank">CSS</a> |
-            <a href="/js/" class="nav-link" target="-blank">JavaScript</a> |
-        </nav> 
-    </header>
-    <main><label id="first-label" for="video" >video</label>
-        <video id="video" controls></video>
+    <div class="container">
+        <header id="header">
         
-        <br>
+            <nav class="nav-link navbar navbar-inverse navbar-fixed-top">
+                <a href="/html/" class="nav-link" target="-blank">HTML</a> |
+                <a href="/css/" class="nav-link" target="-blank">CSS</a> |
+                <a href="/js/" class="nav-link" target="-blank">JavaScript</a> |
+            </nav> 
 
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <label>E-mail</label>
-            <input name="email" id="email" placeholder="E-mail" type="email">
+            <br><br><br>
 
-            <br>
-            <br>
+            <img id="header-img" src="logo.jpg" width="30px">
+            My product landing page
+        </header>
 
-            <input type="submit" id="submit" value="Submit">
-           
+        <main><label id="first-label" for="video" >video</label>
+            <video id="video" controls></video>
+            
 
-        </form>
-    </main>
-        
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label>E-mail</label>
+                <input name="email" id="email" placeholder="E-mail" type="email">
+
+                
+                <input type="submit" id="submit" value="Submit">
+            
+
+            </form>
+        </main>
+    </div>
+
     
 </body>
 </html> 
